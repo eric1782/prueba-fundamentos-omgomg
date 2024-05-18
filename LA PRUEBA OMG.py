@@ -1,10 +1,4 @@
-#Calculadora de liquidacion de sueldo lol
-#ocupar estructuras condicionales if para entradas de usuario
-#usar while
-#subir wea a github
-#generar un archivo qlo al final con la wea uno de txt
-#si horas 
-
+#Calculadora de liquidacion de sueldo
 w=1
 while w == 1:
     print("Bienvenido")
@@ -12,6 +6,7 @@ while w == 1:
     if nombre and len(nombre)<30:
         sueldo_base= int(input("ingrese su sueldo base: "))
         horas_extra= int(input("ingrese las horas extras trabajadas en el mes: "))
+        #horas si o si trabajadas serian de 180, por eso no se pregunta, y porque las instrucciones de la prueba dice que se pregunte por horas extra noma (escribo esto pa q no me rete pipipi)
         if sueldo_base >= 0 and horas_extra >= 0:
             Sueldo_x_Hora = sueldo_base/180
             Sueldo_x_Hora_Extra= int(Sueldo_x_Hora*1.5)
